@@ -36,7 +36,7 @@ function App() {
     }
   }, [events]);
 
-  // Set localStorage
+  // Set localStorage: 无后端所以缓存在浏览器中
   useEffect(() => {
     updateEvents();
   }, [events]);
